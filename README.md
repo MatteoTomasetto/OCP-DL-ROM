@@ -9,7 +9,7 @@ This repository contains the official source code implementation of the paper
 
 `NN` folder contains the autoencoders and the parameter-to-solution maps built and trained in the three test cases
 
-`utils` contains the package [dlroms](https://github.com/NicolaRFranco/dlroms) provided by [Nicola Rares Franco](https://github.com/NicolaRFranco) to handle meshes, finite element spaces, neural networks and proper orthogonal decomposition
+To run the test cases, the package [dlroms](https://github.com/MatteoTomasetto/dlroms) written and maintained by [Nicola Rares Franco](https://github.com/NicolaRFranco) is required to handle meshes, finite element spaces, neural networks and proper orthogonal decomposition
 
 ## Steady flow control
 `SteadyFlowControl.ipynb` presents the steady flow control test case where the energy dissipation of a fluid in a channel has to be minimized considering different inflow datum. The control action is the velocity on the boundary of an obstacle in the channel. The state dynamics is described by steady Navier-Stokes equations.
