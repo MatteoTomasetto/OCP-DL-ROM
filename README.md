@@ -1,6 +1,6 @@
 # Real-time optimal control of parametrized systems by DL-ROMs
 
-This repository contains the official source code implementation of the paper [*Real-time optimal control of parametrized systems by Deep learning-based reduced order models*](
+This repository contains the official source code implementation of the paper *Real-time optimal control of parametrized systems by Deep learning-based reduced order models* [(arXiv)](
 https://doi.org/10.48550/arXiv.2409.05709)
 
 `Data` folder contains the scenario parameters and the simulated optimal snapshots for the three test cases
