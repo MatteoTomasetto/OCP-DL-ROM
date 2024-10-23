@@ -48,7 +48,7 @@ This library is a fork of the [dlroms](https://github.com/NicolaRFranco/dlroms.g
 ## Cite
 If you use this code for your work, please cite:
 
-@misc{tomasetto2024ocp-dl-rom,
+'@misc{tomasetto2024ocp-dl-rom,
       title={Real-time optimal control of high-dimensional parametrized systems by deep learning-based reduced order models}, 
       author={Matteo Tomasetto and Andrea Manzoni and Francesco Braghin},
       year={2024},
@@ -56,4 +56,4 @@ If you use this code for your work, please cite:
       archivePrefix={arXiv},
       primaryClass={math.OC},
       url={https://arxiv.org/abs/2409.05709}, 
-}
+}'
