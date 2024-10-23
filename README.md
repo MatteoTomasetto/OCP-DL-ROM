@@ -45,7 +45,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 </p>
 
 ## Cite
-If you use this code for your work, please cite:
+If you use this code for your work, please cite
 
 ```
 @misc{tomasetto2024ocp-dl-rom,
