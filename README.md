@@ -39,7 +39,21 @@ This library is a fork of the [dlroms](https://github.com/NicolaRFranco/dlroms.g
 
 <p align="center" width="100%">
   <img width=40% alt="Optimal state - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalState-r_source=0.65.gif" >
+
   <img width=40% alt="Optimal control - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalControl-r_source=0.65.gif" >
   <br />
   Optimal pair for different source positions - r<sub>s</sub> = 0.65
 </p>
+
+## Cite
+If you use this code for your work, please cite:
+
+@misc{tomasetto2024ocp-dl-rom,
+      title={Real-time optimal control of high-dimensional parametrized systems by deep learning-based reduced order models}, 
+      author={Matteo Tomasetto and Andrea Manzoni and Francesco Braghin},
+      year={2024},
+      eprint={2409.05709},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2409.05709}, 
+}
