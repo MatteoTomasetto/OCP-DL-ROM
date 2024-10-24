@@ -19,7 +19,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
     
   <img width=30% src="./gifs/SteadyFlowControl-OptimalPair-mod_in=100.gif" >
   <br />
-  Optimal pair for different inflow angles - inflow intensity = 50.0 m/s, 100.0 m/s
+  Optimal pair for different inflow angles - inflow intensity = $50.0$ m/s, $100.0$ m/s
 </p>
 
 ## Unsteady flow control
@@ -29,7 +29,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
   <img width=30% src="./gifs/UnsteadyFlowContol-OptimalPair-alpha_in=0.5.gif" >
   <img width=30% src="./gifs/UnsteadyFLowControl-OptimalPair-alpha_in=1.0.gif" >
   <br />
-  Optimal pair for different time instants - inflow angle = 0.5 rad, 1.0 rad
+  Optimal pair for different time instants - inflow angle = $0.5$ rad, $1.0$ rad
 
 </p>
 
@@ -41,7 +41,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 
   <img width=40% alt="Optimal control - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalControl-r_source=0.65.gif" >
   <br />
-  Optimal pair for different source positions - r<sub>s</sub> = 0.65
+  Optimal pair for different source positions - r<sub>s</sub> = $0.65$
 </p>
 
 ## Cite
