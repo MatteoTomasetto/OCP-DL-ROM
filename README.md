@@ -37,9 +37,9 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 `ActiveThermalCooling.ipynb` presents the active thermal cooling test case where the temperature of an object has to be kept constant and equal to a reference value considering different heat source positions. The control action is an external source in an annular region around the object. The state dynamics is described by steady heat equation.
 
 <p align="center" width="100%">
-  <img width=40% alt="Optimal state - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalState-r_source=0.65.gif" >
+  <img width=30% alt="Optimal state - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalState-r_source=0.65.gif" >
 
-  <img width=40% alt="Optimal control - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalControl-r_source=0.65.gif" >
+  <img width=30% alt="Optimal control - source-obstacle distance = 0.65" src="./gifs/ActiveThermalCooling-OptimalControl-r_source=0.65.gif" >
   <br />
   Optimal pair for different source positions - r<sub>s</sub> = $0.65$
 </p>
