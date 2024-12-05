@@ -12,7 +12,7 @@ https://doi.org/10.48550/arXiv.2409.05709))
 To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/dlroms) is required to handle meshes, finite element spaces, neural networks and proper orthogonal decomposition.
 
 <p align="center" width="100%">
-  <img width=30% src="./media/OCP-DL-ROM-pdf" >
+  <img width=30% src="./media/OCP-DL-ROM.jpg" >
   <br />
 </p>
 
