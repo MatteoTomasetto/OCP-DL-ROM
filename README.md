@@ -1,13 +1,13 @@
 # Real-time optimal control of parametrized systems by DL-ROMs
 
 This repository contains the official source code implementation of the paper *Real-time optimal control of parametrized systems by deep learning-based reduced order models* ([arXiv](
-https://doi.org/10.48550/arXiv.2409.05709))
+https://doi.org/10.48550/arXiv.2409.05709)).
 
-`Data` folder contains the scenario parameters and the simulated optimal snapshots for the three test cases
+`Data` folder contains the scenario parameters and the simulated optimal snapshots for the three test cases;
 
-`Mesh` folder contains the mesh files generated for the flow control test cases
+`Mesh` folder contains the mesh files generated for the flow control test cases;
 
-`NN` folder contains the autoencoders and the parameter-to-solution maps built and trained in the three test cases
+`NN` folder contains the autoencoders and the parameter-to-solution maps built and trained in the three test cases;
 
 To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/dlroms) is required to handle meshes, finite element spaces, neural networks and proper orthogonal decomposition.
 
