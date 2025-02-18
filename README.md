@@ -53,7 +53,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 ## Cite
 If you use this code for your work, please cite
 
-```
+```bibtex
 @misc{tomasetto2024ocp-dl-rom,
       title={Real-time optimal control of high-dimensional parametrized systems by deep learning-based reduced order models}, 
       author={Matteo Tomasetto and Andrea Manzoni and Francesco Braghin},
