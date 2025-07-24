@@ -52,11 +52,11 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 </p>
 
 <p align="center" width="100%"> 
-  <img width=30% src="./media/UnsteadyFlowControl-UncontrolledVelocity.gif" >
-  &emsp; &emsp; &emsp; 
   <img width=30% src="./media/UnsteadyFlowControl-ControlledVelocity.gif" >
+  &emsp; &emsp; &emsp; 
+  <img width=30% src="./media/UnsteadyFlowControl-UncontrolledVelocity.gif" >
   <br />
-  Uncontrolled and controlled flow velocity - inflow angle = $0.5$ rad
+  Controlled and uncontrolled flow velocity - inflow angle = $0.5$ rad
 
 </p>
 
