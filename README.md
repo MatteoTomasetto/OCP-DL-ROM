@@ -27,18 +27,6 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
   Optimal pair for different inflow angles - inflow intensity = $50.0$ m/s, $100.0$ m/s
 </p>
 
-## Unsteady flow control
-`UnsteadyFlowControl.ipynb` presents the unsteady flow control test case where the energy dissipation of a fluid in a channel has to be minimized considering different inflow datum. The control action is the velocity on the boundary of an obstacle in the channel. The state dynamics is described by unsteady Navier-Stokes equations.
-
-<p align="center" width="100%"> 
-  <img width=30% src="./media/UnsteadyFlowContol-OptimalPair-alpha_in=0.5.gif" >
-  &emsp; &emsp; &emsp;
-  <img width=30% src="./media/UnsteadyFLowControl-OptimalPair-alpha_in=1.0.gif" >
-  <br />
-  Optimal pair for different time instants - inflow angle = $0.5$ rad, $1.0$ rad
-
-</p>
-
 ## Active thermal cooling
 `ActiveThermalCooling.ipynb` presents the active thermal cooling test case where the temperature of an object has to be kept constant and equal to a reference value considering different heat source positions. The control action is an external source in an annular region around the object. The state dynamics is described by steady heat equation.
 
@@ -48,6 +36,28 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
   <img width=30% alt="Optimal control - source-obstacle distance = 0.65" src="./media/ActiveThermalCooling-OptimalControl-r_source=0.65.gif" >
   <br />
   Optimal pair for different source positions - r<sub>s</sub> = $0.65$
+</p>
+
+
+## Unsteady flow control
+`UnsteadyFlowControl.ipynb` presents the unsteady flow control test case where the energy dissipation of a fluid in a channel has to be minimized considering different angles of attacks. The control action is the velocity on the boundary of an obstacle in the channel. The state dynamics is described by unsteady Navier-Stokes equations.
+
+<p align="center" width="100%"> 
+  <img width=30% src="./media/UnsteadyFlowContol-UncontrolledVelocity.gif" >
+  &emsp; &emsp; &emsp;
+  <img width=30% src="./media/UnsteadyFlowContol-ControlledVelocity.gif" >
+  <br />
+  Uncontrolled and controlled flow velocity - inflow angle = $0.5$ rad
+
+</p>
+
+<p align="center" width="100%"> 
+  <img width=30% src="./media/UnsteadyFlowContol-Control.gif" >
+  &emsp; &emsp; &emsp;
+  <img width=30% src="./media/UnsteadyFlowContol-PredictedVelocity.gif" >
+  <br />
+  Optimal pair prediction - inflow angle = $0.5$ rad
+
 </p>
 
 ## Cite
