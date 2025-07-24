@@ -52,7 +52,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 </p>
 
 <p align="center" width="100%"> 
-  <img width=30% src="./media/UnsteadyFlowControl-PredictedVelocity.gif" style="margin-bottom: 20px; >
+  <img width=30% src="./media/UnsteadyFlowControl-PredictedVelocity.gif" >
   &emsp; &emsp; &emsp;
   <img width=30% src="./media/UnsteadyFlowControl-Control.gif" >
   <br />
