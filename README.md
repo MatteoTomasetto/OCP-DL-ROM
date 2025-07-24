@@ -19,7 +19,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 ## Steady flow control
 `SteadyFlowControl.ipynb` presents the steady flow control test case where the energy dissipation of a fluid in a channel has to be minimized considering different inflow datum. The control action is the velocity on the boundary of an obstacle in the channel. The state dynamics is described by steady Navier-Stokes equations.
 
-<p align="center" width="100%">
+<p align="align" width="100%">
   <img width=30% src="./media/SteadyFlowControl-OptimalPair-mod_in=50.gif" >
   &emsp; &emsp; &emsp;
   <img width=30% src="./media/SteadyFlowControl-OptimalPair-mod_in=100.gif" >
