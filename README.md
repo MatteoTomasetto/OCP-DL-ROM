@@ -44,19 +44,19 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 
 <p align="center" width="100%"> 
   <img width=30% src="./media/UnsteadyFlowControl-ControlledVelocity.gif" >
-  &emsp; &emsp; &emsp;
+  &emsp; &emsp;
   <img width=30% src="./media/UnsteadyFlowControl-UncontrolledVelocity.gif" >
+  &emsp; &emsp; 
+  <img width=30% src="./media/UnsteadyFlowControl-PredictedVelocity.gif" >
   <br />
-  Controlled and uncontrolled flow velocity - inflow angle = $0.5$ rad
+  Uncontrolled, controlled and predicted flow velocity - inflow angle = $0.5$ rad
 
 </p>
 
 <p align="center" width="100%"> 
-  <img width=30% src="./media/UnsteadyFlowControl-PredictedVelocity.gif" >
-  &emsp; &emsp; &emsp;
   <img width=30% src="./media/UnsteadyFlowControl-Control.gif" >
   <br />
-  Optimal pair prediction - inflow angle = $0.5$ rad
+  Optimal control prediction - inflow angle = $0.5$ rad
 
 </p>
 
