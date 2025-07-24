@@ -43,20 +43,20 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
 `UnsteadyFlowControl.ipynb` presents the unsteady flow control test case where the energy dissipation of a fluid in a channel has to be minimized considering different angles of attacks. The control action is the velocity on the boundary of an obstacle in the channel. The state dynamics is described by unsteady Navier-Stokes equations.
 
 <p align="center" width="100%"> 
-  <img width=30% src="./media/UnsteadyFlowControl-UncontrolledVelocity.gif" >
-  &emsp; &emsp; &emsp;
   <img width=30% src="./media/UnsteadyFlowControl-ControlledVelocity.gif" >
   &emsp; &emsp; &emsp;
-  <img width=30% src="./media/UnsteadyFlowControl-PredictedVelocity.gif" >
+  <img width=30% src="./media/UnsteadyFlowControl-UncontrolledVelocity.gif" >
   <br />
-  Uncontrolled, controlled and predicted flow velocity - inflow angle = $0.5$ rad
+  Controlled and uncontrolled flow velocity - inflow angle = $0.5$ rad
 
 </p>
 
 <p align="center" width="100%"> 
   <img width=30% src="./media/UnsteadyFlowControl-PredictedVelocity.gif" >
+  &emsp; &emsp; &emsp;
+  <img width=30% src="./media/UnsteadyFlowControl-Control.gif" >
   <br />
-  Optimal control prediction - inflow angle = $0.5$ rad
+  Optimal pair prediction - inflow angle = $0.5$ rad
 
 </p>
 
