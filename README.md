@@ -47,7 +47,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
   &emsp; &emsp; &emsp; 
   <img width=30% src="./media/UnsteadyFlowControl-Control.gif" >
   <br />
-  Optimal pair prediction - inflow angle = $0.5$ rad
+  Optimal pair prediction - inflow angle = $-0.75$ rad
 
 </p>
 
@@ -56,7 +56,7 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
   &emsp; &emsp; &emsp; 
   <img width=30% src="./media/UnsteadyFlowControl-UncontrolledVelocity.gif" >
   <br />
-  Controlled and uncontrolled flow velocity - inflow angle = $0.5$ rad
+  Controlled and uncontrolled flow velocity - inflow angle = $-0.75$ rad
 
 </p>
 
