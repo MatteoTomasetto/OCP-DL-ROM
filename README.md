@@ -16,6 +16,60 @@ To run the test cases, the library [dlroms](https://github.com/MatteoTomasetto/d
   <br />
 </p>
 
+## Quickstart
+
+```python
+import torch
+import numpy as np
+
+# Generate or import the data matrices Y and U collecting optimal state and control snapshots, respectively, along with the corresponding scenario parameters MU
+
+# Initialize OCP object
+from dlroms.ocp import OCP
+ocp = OCP(ntrain) # ntrain is the number of training data
+
+# Define error metrics
+from dlroms.roms import mre, mse, euclidean
+mse = mse(euclidean)
+mre = mre(euclidean)
+```
+
+```python
+# POD+AE state reduction
+from dlroms.dnns import Dense
+ry = ... # Number of state POD modes
+hy = ... # Latent state dimension
+encoder = Dense(ry, ...) + Dense(..., ...) + Dense(..., hy) # Define encoder architecture
+decoder = Dense(hy, ...) + Dense(..., ...) + Dense(..., ry, activation = None) # Define decoder architecture
+zy, Y_rec, Psi_y, sigma_y = ocp.PODAE(Y, k = ry, encoder = encoder, decoder = decoder, epochs = ..., loss = mse, error = mre) # only the first ntrain data used for training. zy are the latent variables, Y_rec the encoded-decoded data, Psi_y and sigma_Y are the POD modes and singular values
+```
+
+```python
+# POD control reduction
+hU = rU = ... # Number of control POD modes
+zu, U_rec, Psi_u, sigma_u = ocp.POD(U, k = rU) # only the first ntrain data used for SVD
+```
+
+```python
+# Latent controller definition
+phi = Dense(nparam,  ...) + Dense(..., ...) + Dense(..., hy + hu, activation = None) # Define the latent controller architecture
+
+# Latent controller training
+zy_hat, zu_hat = ocp.redmap(phi, MU, [zy, zu], epochs = ..., loss = mse, error = mre) # only the first ntrain data used for training. zy_hat and zu_hat are the state and control approximations at the latent level
+```
+
+```python
+# Full-order predictions (both training and test data)
+from dlroms.roms import projectup # POD decoding
+Y_hat = projectup(Psi_y, decoder(zy_hat))
+U_hat = projectup(Psi_u, zu_hat)
+
+# Full-order predictions for new test parameters MU_test
+zy_test_hat, zu_test_hat = ocp.redmap(phi, MU_test, training = False)
+Y_test_hat = projectup(Psi_y, decoder(zy_test_hat))
+U_test_hat = projectup(Psi_u, zu_test_hat)
+```
+
 ## Steady flow control
 `SteadyFlowControl.ipynb` presents the steady flow control test case where the energy dissipation of a fluid in a channel has to be minimized considering different inflow datum. The control action is the velocity on the boundary of an obstacle in the channel. The state dynamics is described by steady Navier-Stokes equations.
 
