@@ -23,6 +23,7 @@ import torch
 import numpy as np
 
 # Generate or import the data matrices Y and U collecting optimal state and control snapshots, respectively, along with the corresponding scenario parameters MU
+# Define the number of parameters nparam, as well as the full-order state and control dimensions ny and nu
 
 # Initialize OCP object
 from dlroms.ocp import OCP
