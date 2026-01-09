@@ -1,7 +1,7 @@
 # Real-time optimal control of parametrized systems by DL-ROMs
 
 This repository contains the official source code implementation of the paper *Real-time optimal control of parametrized systems by deep learning-based reduced order models* ([arXiv](
-https://doi.org/10.48550/arXiv.2409.05709)).
+https://doi.org/10.48550/arXiv.2409.05709), [paper](https://doi.org/10.1002/nme.70237)).
 
 `Data` folder contains the scenario parameters and the simulated optimal snapshots for the three test cases;
 
@@ -119,13 +119,17 @@ U_test_hat = projectup(Psi_u, zu_test_hat)
 If you use this code for your work, please cite
 
 ```bibtex
-@misc{tomasetto2024ocp-dl-rom,
-      title={Real-time optimal control of high-dimensional parametrized systems by deep learning-based reduced order models}, 
-      author={Matteo Tomasetto and Andrea Manzoni and Francesco Braghin},
-      year={2024},
-      eprint={2409.05709},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-      url={https://arxiv.org/abs/2409.05709}, 
+@article{OCP-DL-ROM,
+author = {Tomasetto, Matteo and Manzoni, Andrea and Braghin, Francesco},
+title = {Real-Time Optimal Control of High-Dimensional Parametrized Systems by Deep Learning-Based Reduced Order Models},
+journal = {International Journal for Numerical Methods in Engineering},
+volume = {127},
+number = {1},
+pages = {e70237},
+keywords = {deep learning, fluid flows, heat transfer, optimal control, parametrized systems, PDE-constrained optimization, reduced order modeling},
+doi = {https://doi.org/10.1002/nme.70237},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.70237},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.70237},
+year = {2026}
 }
 ```
