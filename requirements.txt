@@ -1,0 +1,15 @@
+numpy==1.24.4
+torch==2.4.1
+scipy==1.10.1
+matplotlib==3.7.5
+seaborn==0.13.2
+tqdm==4.67.1
+ipython==8.12.3
+
+# dolfin==2019.1.0
+# dolfin_adjoint=2019.1.0
+# install with 'conda install -c conda-forge fenics dolfin_adjoint'
+# see https://fenicsproject.org/download/archive/ and https://www.dolfin-adjoint.org/en/stable/download/index.html for further options
+
+# dlroms---Matteo-Tomasetto==2.1.8
+# install with 'pip install git+https://github.com/MatteoTomasetto/dlroms.git'
