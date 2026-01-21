@@ -8,7 +8,7 @@ ipython==8.12.3
 
 # dolfin==2019.1.0
 # dolfin_adjoint=2019.1.0
-# install with 'conda install -c conda-forge fenics dolfin_adjoint'
+# install with 'conda install -c conda-forge fenics dolfin-adjoint'
 # see https://fenicsproject.org/download/archive/ and https://www.dolfin-adjoint.org/en/stable/download/index.html for further options
 
 # dlroms---Matteo-Tomasetto==2.1.8
